@@ -1,0 +1,4 @@
+# Flask server ko import karo aur start karo
+import threading
+from app import keep_alive
+keep_alive()  # Ye Flask server chalayega
