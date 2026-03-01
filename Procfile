@@ -1,1 +1,2 @@
-web: python3 lazyBhai.py
+web: gunicorn app:app
+worker: python -m Rose
